@@ -1,0 +1,60 @@
+/* 1. Poore page ka setting (Background Image ke sath) */
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; /* Poori screen ki height */
+    margin: 0; 
+    font-family: Arial, sans-serif;
+
+    /* Freepik se download ki hui photo ka naam yahan hai */
+    background-image: url('bg.jpg'); 
+    background-size: cover; /* Photo poori screen par fit ho jaye */
+    background-position: center; /* Photo beech me rahe */
+    background-repeat: no-repeat; /* Photo baar-baar repeat na ho */
+}
+
+/* 2. Calculator ka main dabba (Box) */
+.calc { 
+    background-color: #2b7b95; /* Dark grey background */
+    padding: 20px; 
+    border-radius: 10px; /* Kono ko thoda gol karne ke liye */
+    box-shadow: 0px 4px 15px rgba(214, 151, 151, 0.5); /* Peeche halki si shadow */
+}
+
+/* 3. Screen jahan numbers dikhte hain */
+#screen { 
+    width: 100%; /* Apne dibbe ke barabar chauwda */
+    height: 45px; 
+    font-size: 24px; 
+    text-align: right; /* Numbers right side se likhenge */
+    margin-bottom: 15px; 
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Padding se screen badi na ho isliye */
+}
+
+/* 4. Buttons ko grid (line) me set karne ke liye */
+.keys { 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); /* 4 barabar columns */
+    gap: 10px; /* Buttons ke beech ka gap */
+}
+
+/* 5. Buttons ka simple design */
+button { 
+    padding: 15px; 
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer; /* Mouse le jaane par hath ka nishan bane */
+    border: none;
+    border-radius: 5px;
+    background-color: #cab0b0;
+    transition: 0.2s; /* Hover hone me thoda smooth lage */
+}
+
+/* 6. Jab button par mouse le jayein (Hover effect) */
+button:hover {
+    background-color: #dfc5c5; /* Thoda dark grey ho jayega */
+}
