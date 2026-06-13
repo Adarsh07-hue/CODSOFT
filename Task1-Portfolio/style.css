@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-header {
+    background-color: #262626;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.my-header h1 {
+    margin: 0px;
+    font-size: 26px;
+}
+
+.my-header p {
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.my-nav {
+    margin-top: 15px;
+}
+
+.my-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.my-nav a:hover {
+    color: #3b82f6;
+}
+
+.intro-banner {
+    background-image: url('banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.intro-banner h2 {
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 80px;  /* Isse naam upar chala jayega aur beech mein cat ki eyes dikhengi */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    letter-spacing: 2px;
+}
+
+.intro-banner p {
+    font-size: 15px;
+    max-width: 700px;
+    margin: 0 auto 30px auto; /* Para thoda niche khisak jayega */
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.content-section {
+    padding: 35px;
+    margin: 20px;
+    border: 1px solid #ceedc6;
+    background-color: #fafafa;
+}
+
+.blue-line {
+    width: 40px;
+    height: 3px;
+    background-color: #d9e1ee;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 220px;
+    border: 1px solid #333333;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.simple-btn {
+    background-color: #3465b5;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.clear-float {
+    clear: both;
+}
